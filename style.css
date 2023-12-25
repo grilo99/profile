@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+   
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size: 14px;
+  }
+
+  /* Navigation menu bar */
+  .Nav-Menu-Links{
+    list-style-type:none;
+    display: grid;
+    grid-template-columns: repeat(2, 90px) 120px repeat(2, 90px);
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  @media screen and (max-width:480px) {
+      .Nav-Menu-Links{
+          display: none;
+      }
+  }
+
+  /* Navigation text color */
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+/* Profile Picture image */
+  img{
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .myname{
+      float: left;
+  }
+
+/* Profile Name  */
+
+  h1{
+      font-size: 25px;
+      font-weight: 900;
+      background-clip: text;
+      text-align: center;
+  }
+
+/* Footer contacts icons */
+
+  .contacts{
+        text-align: center;
+  }
+  
+  p{
+        border-radius: 1px;
+        padding: 10px;
+        margin: 0px 0;
+  }
+ 
+
+    
+
+
+    
